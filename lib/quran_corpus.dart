@@ -3,6 +3,7 @@
 /// More dartdocs go here.
 library quran_corpus;
 
-export 'src/quran_corpus_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/corpus.dart';
+export 'src/feature.dart';
+export 'src/location.dart';
+export 'src/quran.dart';
