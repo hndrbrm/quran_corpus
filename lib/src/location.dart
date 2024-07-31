@@ -27,7 +27,5 @@ class Location {
   final int lafaz;
 
   @override
-  String toString() {
-    return '$surah:$ayah:$kalimah:$lafaz';
-  }
+  String toString() => '($surah:$ayah:$kalimah:$lafaz)';
 }
